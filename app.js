@@ -3,7 +3,7 @@ const path  = require("path")
 const app = express()
 const port  = process.env.PORT || 3000;
 const statictPath = path.join(__dirname) + '/public'
-console.log(path.join(__dirname))
+//console.log(path.join(__dirname))
 app.use(express.static(statictPath));
 
 app.get('/',(req,res)=>{
