@@ -1,0 +1,14 @@
+{
+  "name": "mathgametest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Mohammad H Akanda",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

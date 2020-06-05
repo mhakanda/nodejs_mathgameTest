@@ -1,0 +1,109 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="img/magento-2.svg" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/mycustomize.css">
+    <title>MELD</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-info static-top">
+        <div class="container">
+          <a class="navbar-brand" href="https://web.education.wisc.edu/pmatthews/" target="_blank">
+                <img src="img/cropped-MELD-2.jpeg" width="480" height="60" alt="">
+              </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="/">Home
+                      <span class="sr-only">(current)</span>
+                    </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/data">Data</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/SignIn">Sign In</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/ContactUs">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+      <!-- Page Content -->
+      <div class="container">
+        <h4></h4>
+        <div class="d-flex justify-content-between border border-dark top1">
+            <div class="p-2">
+                <h3 id="status">Status: Waiting..</h3> 
+            </div>
+            <div class="p-1">
+                <button class="btn btn-primary" id="startGame">Start Game</button>
+            </div>
+        </div>
+      </div>
+      
+      <h4></h4>
+        <div class="d-flex justify-content-center">
+            
+                <h4>
+                    <div class="alert alert-primary" role="alert" id="instruction">
+                        The game is to identify the largest one between two numbers
+                      </div>
+                </h4> 
+            </div>
+            
+        </div>
+          <h4></h4>
+
+          <div class="container">
+            <div class="d-flex justify-content-around ">
+                <div class="container">
+                    <div class="row justify-content-start">
+                        <div class="col-sm border border-success rounded lhs">
+                         
+                                <p id="lhs">4</p>
+                        
+                        </div>
+                        <div class="col-sm border border-dark" style="visibility: hidden;">col-sm</div>
+                        <div class="col-sm border border-success rounded rhs" >
+                            <div class="p-1">
+                                <p id="rhs">42</p>
+                            </div>
+                        </div>
+                      </div>
+                    </div>  
+              </div>
+          </div>
+      
+      <div class="container">
+        <div class="d-flex justify-content-start">
+          <h4>
+              <div class="alert alert-info" role="alert" id="gameData" style="visibility: hidden;">
+                  Game Data
+                </div>
+          </h4> 
+      </div> 
+      </div>
+              
+    <!-- Optional JavaScript -->
+    <script src="js/myjscode.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
